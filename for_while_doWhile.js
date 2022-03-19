@@ -45,3 +45,4 @@ function factorial(number){
 
 let conteo = factorial(5);
 console.log(conteo)
+
