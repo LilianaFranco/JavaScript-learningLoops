@@ -1,5 +1,6 @@
 const prompt = require ('prompt-sync')({sigint: true})
 
+// Ejercicio 1
 function imprimirFrase(){
     /**
     * Pide frase al usuario frase y la imprime en pantalla.
@@ -10,6 +11,7 @@ function imprimirFrase(){
 }
 imprimirFrase();
 
+// Ejercicio 2
 function saludar(){
     /**
     * Pide nombre al usuario frase y lo saluda por su nombre.
@@ -20,6 +22,7 @@ function saludar(){
 }
 saludar();
 
+// Ejercicio 3
 function sumar(){
     /**
     * Pide dos números al usuario y los imprime en pantalla.
@@ -31,6 +34,7 @@ function sumar(){
 }
 sumar();
 
+// Ejercicio 4
 function calcularEdad(){
     /**
     * @parameter {int} Pide al usuario un número de base.
@@ -42,6 +46,7 @@ function calcularEdad(){
 }
 calcularEdad();
 
+// Ejercicio 5
 function getRandomInt(min, max) {
     /**
     * Pide frase al usuario frase y la imprime en pantalla.
@@ -67,6 +72,6 @@ function guessTheNumber() {
 
 console.log (guessTheNumber(3))
 
-
+// Ejercicio 6
 
 
